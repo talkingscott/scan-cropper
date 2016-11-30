@@ -1,3 +1,5 @@
+# Overview
+
 Crops scanned pictures.  The scanned image is larger than the actual picture,
 with a mostly-white additional margin to the right and bottom of the picture.
 
@@ -22,3 +24,10 @@ but which could be statistically fit based on more samples.
 Ultimately, identifying lines of pixels that are likely to be scanner background
 is straightforward and intuitively likely to be accurate with all photos that do
 not have a featureless, white background at an edge.
+
+# Usage
+
+```
+usage: crop_scan.py [-h] [-l LOG_LEVEL] [-i IMAGE_PATH] -c CROP_DIRECTORY
+                    [-s SCAN_DIRECTORY]
+```
